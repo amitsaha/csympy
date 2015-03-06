@@ -127,6 +127,14 @@ common prefix for includes and libs, use 1., otherwise use 2.
 
 ## Developer Documentation
 
+To build a local copy of the documentation:
+
+   cd doc
+   doxygen
+   make html
+
+You will need the `breathe` Sphinx extension installed.
+
 Please follow the [C++ Style Guide](doc/style_guide.md) when developing.
 
 The design decisions are documented in [Design](doc/design.md).
